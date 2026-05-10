@@ -76,10 +76,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Execon Engineering proiectează și execută linii de fabricație, celule robotizate și soluții energetice pentru industrie." },
       { name: "author", content: "Execon Engineering" },
       { property: "og:title", content: "Execon Engineering — Robotică industrială și energie" },
-      { property: "og:description", content: "Soluții complete de la integrare echipamente la antreprenoriat general pentru Industrie și Energie." },
+      { property: "og:description", content: "Execon Engineering proiectează și execută linii de fabricație, celule robotizate și soluții energetice pentru industrie." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Execon Engineering — Robotică industrială și energie" },
+      { name: "twitter:description", content: "Execon Engineering proiectează și execută linii de fabricație, celule robotizate și soluții energetice pentru industrie." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d52035c7-00ac-4ed5-a807-a4036ec43f71" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/d52035c7-00ac-4ed5-a807-a4036ec43f71" },
     ],
     links: [
       {
